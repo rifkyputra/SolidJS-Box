@@ -1,0 +1,8 @@
+**/node_modules
+.github
+**/.vite
+**/.vscode
+**/.yarn
+**/yarn.lock
+**/package-lock.json
+**/dist

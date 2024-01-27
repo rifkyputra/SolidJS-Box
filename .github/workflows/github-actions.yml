@@ -1,0 +1,16 @@
+# name: Deploy to GitHub Pages
+# on:
+#   push:
+#     branches:
+#       - master
+# jobs:
+#     deploy:
+#         runs-on: ubuntu-latest
+#         steps:
+#         - uses: actions/checkout@v2
+#         - name: Deploy to GitHub Pages
+#             uses: JamesIves/github-pages-deploy-action@3.5.14
+#             with:
+#             branch: gh-pages
+#             folder: build
+#     ```
